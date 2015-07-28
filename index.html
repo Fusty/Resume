@@ -7,71 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
         <style>
-            .container-fluid {
-                background-color:#F0F0F0;
-            }
-
-            .resume-card {
-                -webkit-border-top-left-radius: 5px;
-                -webkit-border-top-right-radius: 5px;
-                -moz-border-radius-topleft: 5px;
-                -moz-border-radius-topright: 5px;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;       
-
-                background-color:#fff;
-                border-bottom:2px solid #081C66;
-                box-shadow:0 2px #797B85;
-
-                padding:15px;
-            }
-
-            .resume-card h1 {
-                margin:0;
-                padding-top:.75em;
-            }
-
-            .card-wrapper {
-                -webkit-border-top-left-radius: 5px;
-                -webkit-border-top-right-radius: 5px;
-                -moz-border-radius-topleft: 5px;
-                -moz-border-radius-topright: 5px;
-                border-top-left-radius: 5px;
-                border-top-right-radius: 5px;
-                border-radius: 5px;
-                border:1px solid #e6e6e6;
-            }
-
-            .card-wrapper-row {
-                margin-bottom:1em;
-            }
-
-            .center-content {
-                text-align:center;
-            }
-
-            .holding-ground {
-                display:none;
-            }
-
-            .bold-heading {
-                font-size:1.5em;
-                font-weight:bolder;
-            }
-
-            .light-subtext {
-                color:#999;
-            }
-
-            .bottom-margin-1 {
-                margin-bottom:1em;
-            }
         </style>
     </head>
     <body>
@@ -139,7 +80,7 @@
 
                                 <!-- work-container template -->
                                 <div id="work-template" class="col-xs-12">
-                                    <span id="work-n-position" class="bold-heading"></span>, <a id="work-n-company" href=""></a>
+                                    <span id="work-n-position" class="bold-heading-sm"></span>, <a id="work-n-company" href=""></a>
                                     <br/>
                                     <span id="work-n-startDate" class="light-subtext"></span> - <span id="work-n-endDate" class="light-subtext"></span>
                                     <br/>
@@ -165,10 +106,10 @@
                                     <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;<span class="bold-heading">Skills</span>
                                 </div>
                                 <div id="skills-template" class="col-xs-12 bottom-margin-1">
-                                    <span id="skills-n-name" class="bold-heading"></span>
+                                    <span id="skills-n-name" class="bold-heading-sm"></span>
                                     <br/>
                                     <span id="skills-n-keywords-template">
-                                        <span id="skills-n-keywords-n" class="label label-primary"></span>
+                                        <span id="skills-n-keywords-n" class="label label-primary label-lg"></span>
                                     </span>
                                 </div>
                             </div>
@@ -186,10 +127,12 @@
                                     <br/><br/>
                                 </div>
                                 <div id="education-template" class="col-xs-12 bottom-margin-1">
-                                    <span id="education-n-area" class="bold-heading"></span>, <span id="education-n-studyType"></span>, <span id="education-n-institution"></span>
+                                    <span id="education-n-area" class="bold-heading-sm"></span>, <span id="education-n-studyType"></span>, <span id="education-n-institution"></span>
+                                    <br/>
+                                    <span id="education-n-startDate" class="light-subtext"></span> - <span id="education-n-endDate" class="light-subtext"></span>
                                     <br/>
                                     <span id="education-n-courses-template">
-                                        <span id="education-n-courses-n" class="label label-primary"></span>
+                                        <span id="education-n-courses-n" class="label label-primary label-lg"></span>
                                     </span>
                                 </div>
                             </div>
@@ -208,7 +151,7 @@
                                     <br/><br/>
                                 </div>
                                 <div id="publications-template" class="col-xs-12 bottom-margin-1">
-                                    <a id="publications-n-name" href="" class="bold-heading"></a>, <span id="publications-n-publisher" class="lighter-subtext"></span>
+                                    <a id="publications-n-name" href="" class="bold-heading-sm"></a>, <span id="publications-n-publisher" class="lighter-subtext"></span>
                                     <br/>
                                     <span class="lighter-subtext">Live as of: <span id="publications-n-releaseDate"></span></span>
                                     <br/><br/>
