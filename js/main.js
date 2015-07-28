@@ -1,3 +1,9 @@
+//Author:  Alex Sterling
+//2015-07-28
+//Recursive JSON based resume builder
+//Inspired by jsonresume.org
+
+
 $(document).ready(function(){
 	//Load up JSON
 	//getResumeJSON();
@@ -62,6 +68,8 @@ function fillSingleField(index, value){
 		$('#'+index.substring(1)).attr('src',value);
 	}else if(index.match(/-work-[0-9]*-website/)){
 		$('#'+index.substring(1).replace('website', 'company')).attr('href', value);
+	}else if(index.match(/-publications-[0-9]*-website/)){
+		$('#'+index.substring(1).replace('website', 'name')).attr('href', value);
 	}else{
 		$('#'+index.substring(1)).text(value);
 	}
