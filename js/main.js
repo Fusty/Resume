@@ -21,43 +21,46 @@ function getResumeJSON(){
 function fillResume(index, data){
 	//Recursive resume filling!
 	if(typeof data == 'object'){
-		console.log('Diving deeper into '+index);
-		//TODO:  Make this portion work
-		// //If it's an array we'll see if we need to iterate it's container
-		// if(data instanceof Array){
-		// 	$.each(data, function(i,v){
-		// 		//If the final container exists, skip these steps, otherwise . . .
-		// 		if(!$('#'+index+'-container-'+i)[0]){
-		// 			//Clone template container into .holding-ground
-		// 			$('#'+index+'-container').clone().appendTo('.holding-ground');
+		//If it's an array we'll see if we need to iterate it's container
+		if(data instanceof Array){
+			$.each(data, function(i,v){
+				//If the template exists, fill it!
+				console.log('#'+index.substring(1)+"-template");
+				if($('#'+index.substring(1)+"-template")[0]){
+					console.log('Found template '+index.substring(1).substring());
+					//Clear .holding-ground
+					$('.holding-ground').html('');
 
-		// 			//Modify id before stringifying
-		// 			var id = $('.holding-ground #'+index+'-container').attr('id');
-		// 			$('.holding-ground #'+index+'-container').attr('id', id+"-"+i);
+					//Find template, clone it into .holding-ground
+					$('#'+index.substring(1)+"-template").clone().appendTo($('.holding-ground'));
 
-		// 			//Stringify this chunk of html
-		// 			var html = $('.holding-ground').html();
+					//Hide the template now that we're populating it
+					$('#'+index.substring(1)+"-template").hide();
 
-		// 			//Increment index on cloned template
-		// 			html = html.replace('0', i);
+					//Stringify the contents
+					var html = $('.holding-ground').html();
 
+					//Do replaces on what needs replaced
+					//Change index.substring(1)-template to index.substring(1)-i-container
+					var find = new RegExp(index.substring(1)+'-template', 'g');
+					html = html.replace(find, index.substring(1)+'-'+i+'-container');
 
-		// 			//Copy back into where it should be
-		// 			$('#'+index+'-container-'+i).clone().appendTo($('#'+index+'-container').parent());
+					//Change index.substring(1)-n-subindex.substring(1) to index.substring(1)-i-subindex.substring(1)
+					var find = new RegExp(index.substring(1)+'-n', 'g');
+					html = html.replace(find, index.substring(1)+'-'+i);
 
-		// 			//Delete what we cloned
-		// 			$('.holding-ground #'+index+'-container-'+i).remove();
+					console.log(html);
 
-		// 			//Hide the template container, just in case (also for reuse)
-		// 			$('#'+index+'-container').hide();
-		// 		}
-		// 	});
-		// }
+					//Stick the html back in after the template
+					$('#'+index.substring(1)+"-template").parent().append(html);
+					$('#'+index.substring(1)+'-'+i+'-container').show();
+				}
+			});
+		}
 		$.each(data, function(i, v){
 			fillResume(index+"-"+i,v);
 		});
 	}else{
-		console.log('Filling in '+index);
 		fillSingleField(index, data);
 	}
 }
