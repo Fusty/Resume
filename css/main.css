@@ -12,8 +12,6 @@
     border-top-right-radius: 5px;       
 
     background-color:#fff;
-    border-bottom:2px solid #081C66;
-    box-shadow:0 2px #797B85;
 
     padding:15px;
 }
@@ -22,6 +20,38 @@
     margin:0;
     padding-top:.75em;
 }
+
+.basics-card {
+    border-bottom:2px solid #081C66;
+    box-shadow:0 2px #797B85;
+}
+
+.about-card {
+    border-bottom:2px solid #6B3102;
+    box-shadow:0 2px #DC6E14;
+}
+
+.work-card {
+    border-bottom:2px solid #4A026B;
+    box-shadow:0 2px #A781B9;
+}
+
+.skills-card {
+    border-bottom:2px solid #026B1B;
+    box-shadow:0 2px #96C5A1;
+}
+
+.education-card {
+    border-bottom:2px solid #660808;
+    box-shadow:0 2px #F05858;
+}
+
+.examples-card {
+    border-bottom:2px solid #665E08;
+    box-shadow:0 2px #DCCF44;
+}
+
+
 
 .card-wrapper {
     -webkit-border-top-left-radius: 5px;

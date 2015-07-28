@@ -2,7 +2,7 @@
   "basics": {
     "name": "Alex Sterling",
     "label": "Developer",
-    "picture": "",
+    "picture": "http://www.gravatar.com/avatar/4bbff59bf4cca04803a8f9ef87250df2?s=100",
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
@@ -19,6 +19,16 @@
         "network": "Github",
         "username": "fusty",
         "url": "http://github.com/fusty"
+      },
+      {
+        "network": "BitBucket",
+        "username": "alex_sterling",
+        "url": "http://bitbucket.org/alex_sterling"
+      },
+      {
+        "network": "",
+        "username": "",
+        "url": ""
       }
     ]
   },

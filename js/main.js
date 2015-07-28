@@ -6,8 +6,8 @@
 
 $(document).ready(function(){
 	//Load up JSON
-	//getResumeJSON();
-	localGetJSON();
+	getResumeJSON();
+	// localGetJSON();
 
 });
 
