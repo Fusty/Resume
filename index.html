@@ -7,18 +7,269 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.1.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+        <style>
+            .container-fluid {
+                background-color:#F0F0F0;
+            }
+
+            .resume-card {
+                -webkit-border-top-left-radius: 5px;
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topleft: 5px;
+                -moz-border-radius-topright: 5px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;       
+
+                background-color:#fff;
+                border-bottom:2px solid #081C66;
+                box-shadow:0 2px #797B85;
+
+                padding:15px;
+            }
+
+            .resume-card h1 {
+                margin:0;
+                padding-top:.75em;
+            }
+
+            .card-wrapper {
+                -webkit-border-top-left-radius: 5px;
+                -webkit-border-top-right-radius: 5px;
+                -moz-border-radius-topleft: 5px;
+                -moz-border-radius-topright: 5px;
+                border-top-left-radius: 5px;
+                border-top-right-radius: 5px;
+                border-radius: 5px;
+                border:1px solid #e6e6e6;
+            }
+
+            .card-wrapper-row {
+                margin-bottom:1em;
+            }
+
+            .center-content {
+                text-align:center;
+            }
+
+            .holding-ground {
+                display:none;
+            }
+
+            .bold-heading {
+                font-size:1.5em;
+                font-weight:bolder;
+            }
+
+            .light-subtext {
+                color:#999;
+            }
+
+            .bottom-margin-1 {
+                margin-bottom:1em;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="container">
+        <div class="container-fluid">
+            <br/>
+            <div class="row card-wrapper-row basics-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card basics-card">
+                            <div class="row">
+                                <div class="center-content col-xs-12 col-md-8 col-md-offset-2 col-lg-6 col-lg-offset-3">
+                                    <img id="basics-picture" src=""/>
+                                    <h1><span id="basics-name">basics-name</span><br/><small id="basics-label"></small><h1>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="center-content col-xs-12 col-md-4">
+                                    <span class="glyphicon glyphicon-send"></span>&nbsp;
+                                    <span id="basics-location-city"></span>,<span id="basics-location-countryCode"></span>
+                                </div>
+                                <div class="center-content col-xs-12 col-md-4">
+                                    <span class="glyphicon glyphicon-earphone"></span>&nbsp;
+                                    <span id="basics-phone"></span>
+                                </div>
+                                <div class="center-content col-xs-12 col-md-4">
+                                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                                    <span id="basics-email"></span>
+                                </div>
+                            </div>
+                            <br/>
+                            <div class="row">
+                                <div class="center-content col-xs-12">
+                                    <a class="fa fa-github fa-2x social-link link-github">&nbsp;<span id="basics-location-city"></span></a>
+                                </div>
+                            </div>
+                            <br/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-wrapper-row about-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card about-card">
+                            <span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;<span class="bold-heading">About</span>
+                            <br/>
+                            <p id="basics-summary"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-wrapper-row work-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card work-resume-card">
+                            <span class="fa fa-lg fa-building"></span>&nbsp;&nbsp;<span class="bold-heading">Work Experience</span>                        
+                            <br/><br/>
+                            <div class="work-container-0">
+                                <span id="work-0-position" class="bold-heading"></span>, <a id="work-0-company" href=""></a>
+                                <br/>
+                                <span id="work-0-startDate" class="light-subtext"></span> - <span id="work-0-endDate" class="light-subtext"></span>
+                                <br/>
+                                <p id="work-0-summary"></p>
+                                <ul>
+                                    <li id="work-0-highlights-0"></li>
+                                    <li id="work-0-highlights-1"></li>
+                                    <li id="work-0-highlights-2"></li>
+                                    <li id="work-0-highlights-3"></li>
+                                    <li id="work-0-highlights-4"></li>
+                                    <li id="work-0-highlights-5"></li>
+                                    <li id="work-0-highlights-6"></li>
+                                    <li id="work-0-highlights-7"></li>
+                                    <li id="work-0-highlights-8"></li>
+                                    <li id="work-0-highlights-9"></li>
+                                    <li id="work-0-highlights-10"></li>
+                                    <li id="work-0-highlights-11"></li>
+                                    <li id="work-0-highlights-12"></li>
+                                    <li id="work-0-highlights-13"></li>
+                                    <li id="work-0-highlights-14"></li>
+                                    <li id="work-0-highlights-15"></li>
+                                    <li id="work-0-highlights-16"></li>
+                                    <li id="work-0-highlights-17"></li>
+                                    <li id="work-0-highlights-18"></li>
+                                </ul>
+                                <hr/>
+                            </div>
+                            <div class="work-container-1">
+                                <span id="work-1-position" class="bold-heading"></span>, <a id="work-1-company" href=""></a>
+                                <br/>
+                                <span id="work-1-startDate" class="light-subtext"></span> - <span id="work-1-endDate" class="light-subtext"></span>
+                                <br/>
+                                <p id="work-1-summary"></p>
+                                <ul>
+                                    <li id="work-1-highlights-0"></li>
+                                    <li id="work-1-highlights-1"></li>
+                                    <li id="work-1-highlights-2"></li>
+                                    <li id="work-1-highlights-3"></li>
+                                    <li id="work-1-highlights-4"></li>
+                                    <li id="work-1-highlights-5"></li>
+                                    <li id="work-1-highlights-6"></li>
+                                    <li id="work-1-highlights-7"></li>
+                                </ul>
+                                <hr/>
+                            </div>
+                            <div class="work-container-2">
+                                <span id="work-2-position" class="bold-heading"></span>, <a id="work-2-company" href=""></a>
+                                <br/>
+                                <span id="work-2-startDate" class="light-subtext"></span> - <span id="work-2-endDate" class="light-subtext"></span>
+                                <br/>
+                                <p id="work-2-summary"></p>
+                                <ul>
+                                    <li id="work-2-highlights-0"></li>
+                                    <li id="work-2-highlights-1"></li>
+                                    <li id="work-2-highlights-2"></li>
+                                </ul>
+                                <hr/>
+                            </div>
+                            <div class="work-container-3">
+                                <span id="work-3-position" class="bold-heading"></span>, <a id="work-3-company" href=""></a>
+                                <br/>
+                                <span id="work-3-startDate" class="light-subtext"></span> - <span id="work-3-endDate" class="light-subtext"></span>
+                                <br/>
+                                <p id="work-3-summary"></p>
+                                <ul>
+                                    <li id="work-3-highlights-0"></li>
+                                    <li id="work-3-highlights-1"></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-wrapper-row skills-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card skills-card">
+                            <div class="row">
+                                <div class="col-xs-12 bottom-margin-1">
+                                    <span class="glyphicon glyphicon-ok"></span>&nbsp;&nbsp;<span class="bold-heading">Skills</span>
+                                </div>
+                                <div class="col-xs-12 skills-0-container bottom-margin-1">
+                                    <span id="skills-0-name" class="bold-heading"></span>
+                                    <br/>
+                                    <span id="skills-0-keywords-0" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-1" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-2" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-3" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-4" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-5" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-6" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-7" class="label label-primary"></span>
+                                    <span id="skills-0-keywords-8" class="label label-primary"></span>
+                                </div>
+                                <div class="col-xs-12 skills-1-container bottom-margin-1">
+                                    <span id="skills-1-name" class="bold-heading"></span>
+                                    <br/>
+                                    <span id="skills-1-keywords-0" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-1" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-2" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-3" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-4" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-5" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-6" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-7" class="label label-primary"></span>
+                                    <span id="skills-1-keywords-8" class="label label-primary"></span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-wrapper-row education-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card education-card">
+                            <h1>Card heading</h1>
+                            <p>Card body and stuff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row card-wrapper-row examples-row">
+                <div class="col-xs-10 col-xs-offset-1">
+                    <div class="card-wrapper">
+                        <div class="resume-card examples-card">
+                            <h1>Card heading</h1>
+                            <p>Card body and stuff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="holding-ground">
         </div>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>

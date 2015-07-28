@@ -99,15 +99,30 @@
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Oklahoma",
-      "area": "Information Technology",
-      "studyType": "Bachelor",
-      "startDate": "2011-06-01",
-      "endDate": "2014-01-01",
-      "gpa": "4.0",
+      "institution": "The University of Akron",
+      "area": "Computer Science",
+      "studyType": "Bachelors",
+      "startDate": "2010-08",
+      "endDate": "2016-08",
+      "gpa": "",
       "courses": [
-        "DB1101 - Basic SQL",
-        "CS2011 - Java Introduction"
+        "Introduction to C++",
+        "Computer Science 2 (OOP C++)",
+        "Discrete Mathematics",
+        "Calculus III"
+      ]
+    },
+    {
+      "institution": "Johns Hopkins University",
+      "area": "Mechanical Engineering",
+      "studyType": "Bachelors",
+      "startDate": "2006-08",
+      "endDate": "2008-01",
+      "gpa": "",
+      "courses": [
+        "Thermodynamics",
+        "Calculus II",
+        "Statics"
       ]
     }
   ],
@@ -126,6 +141,13 @@
       "releaseDate": "February 2015",
       "website": "http://share.uakron.edu/mailAll",
       "summary": "A universal publication and distribution CMS for campus use.  Allows the creation, moderation and distribution of publications organized by articles.  Allows reader submission of articles, custom front-end formatting, and fine-grained permissioning.  The application can scale to an arbitrary number of publications natively."
+    },
+    {
+      "name": "University of Akron Google Search Appliance",
+      "publisher": "University of Akron",
+      "releaseDate": "2015-06",
+      "website": "http://gsa.uakron.edu/",
+      "summary": "Heavy XSLT modifications to the GSA so it looks like the rest of uakron.edu sites"
     }
   ],
   "skills": [
