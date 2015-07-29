@@ -16,12 +16,12 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "github",
         "username": "fusty",
         "url": "http://github.com/fusty"
       },
       {
-        "network": "BitBucket",
+        "network": "bitbucket",
         "username": "alex_sterling",
         "url": "http://bitbucket.org/alex_sterling"
       },
