@@ -29,7 +29,7 @@ function loadTemplate(template){
 function getResumeJSON(){
 	$.getJSON("resume.json", function(data){
     //Fill the JSON field with this
-    $('#json-field').val(JSON.stringify(data));
+    $('#json-field').val(JSON.stringify(data, null, 4));
 		//Go populate page
 		fillResume("", data);	
   });
