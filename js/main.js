@@ -70,9 +70,9 @@ function fillSingleField(index, value){
 	}else if(index.match(/-publications-[0-9]*-website/)){
 		$('#'+index.substring(1).replace('website', 'name')).attr('href', value);
 	}else if(index.match(/-basics-profiles-[0-9]*-url/)){
-    console.log(index);
     $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
-    $('#'+index.substring(1).replace('url', 'network')).addClass('fa-'+value).addClass('link-'+value);
+  }else if(index.match(/-basics-profiles-[0-9]*-network/)){
+    $('#'+index.substring(1).addClass('fa-'+value).addClass('link-'+value);
   }else{
 		$('#'+index.substring(1)).text(value);
 	}
