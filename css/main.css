@@ -98,6 +98,11 @@
     font-size:1em;
 }
 
+.label-resume {
+    cursor:pointer;
+    margin:.5em;
+}
+
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
