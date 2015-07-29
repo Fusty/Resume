@@ -6,7 +6,7 @@
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
-    "summary": "Alex is from Wadsworth, Ohio.  ",
+    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He doesn't mind spanning the entire web stack or learning new languages or technologies to get the job done perfectly.  With 5 years of experience building web applications and skills in PHP, JavaScript, SQL, CSS, HTML5 and more Alex can deliver web solutions.",
     "location": {
       "address": "153 Westgate Ave.",
       "postalCode": "44281",
@@ -39,7 +39,7 @@
       "website": "http://www.uakron.edu",
       "startDate": "06-02-2013",
       "endDate": "08-14-2015",
-      "summary": "As Senior Web Developer I was in charge of web application design and development.  All work was deployed on RedHat 6 servers running PHP 5.3 and developed on Ubuntu 12.04 systems.  Extensive experience with build tools allowed me to cover the entire stack (htaccess/folder permissions to front end design) excluding Apache server settings when building applications",
+      "summary": "As Senior Web Developer Alex was in charge of web application design and development.  All work was deployed on RedHat 6 servers running PHP 5.3 and developed on Ubuntu 12.04 systems.  Extensive experience with build tools allowed him to cover the entire stack (htaccess/folder permissions to front end design) excluding Apache server settings when building applications",
       "highlights": [
         "Mastery of debugging PHP, JavaScript, SQL queries, CSS, HTML, Apache Velocity and more",
         "Mastery of API interfacing (JavaScript, PHP, REST, SOAP etc.)",
