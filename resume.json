@@ -24,11 +24,6 @@
         "network": "bitbucket",
         "username": "alex_sterling",
         "url": "http://bitbucket.org/alex_sterling"
-      },
-      {
-        "network": "",
-        "username": "",
-        "url": ""
       }
     ]
   },
@@ -43,7 +38,6 @@
       "highlights": [
         "Mastery of debugging PHP, JavaScript, SQL queries, CSS, HTML, Apache Velocity and more",
         "Mastery of API interfacing (JavaScript, PHP, REST, SOAP etc.)",
-        "",
         "Extensive use of VI/VIM, SublimeText and PHPStorm",
         "Experience on Linux servers (Ubuntu 12.04 and RedHat 6)",
         "Extensive use of, and preference for, command line tools",
