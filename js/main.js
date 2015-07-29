@@ -60,7 +60,7 @@ function drawTemplateSelection(){
 
   content += "<br/><h4>Oh and feel free to modify the underlying data too!  (Reverts on page reload or reset)</h4>"+
     "<br/><a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a><a class=\"btn btn-danger bottom-margin-1\" onclick=\"clickResetFromField();\">Reset</a>"+
-    "<br/><textarea id=\"json-field\" class=\"form-control \" rows=\"100\"></textarea>"+
+    "<textarea id=\"json-field\" class=\"form-control \" rows=\"100\" style=\"margin-top:1em;\"></textarea>"+
     "<br/><a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a><a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a>"+
     "<br/>";
 
