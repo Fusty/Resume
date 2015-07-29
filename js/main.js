@@ -28,13 +28,15 @@ function loadTemplate(template){
 
 function getResumeJSON(){
 	$.getJSON("resume.json", function(data){
+    //Fill the JSON field with this
+    $('#json-field').val(data);
 		//Go populate page
 		fillResume("", data);	
   });
 }
 
 function getResumeField(){
-  data = $('#json-field').text();
+  data = $('#json-field').val();
   fillResume("", data);
 }
 
@@ -49,12 +51,16 @@ function drawTemplateSelection(){
     "default" : "Default",
     "dark" : "Darkened"
   }
-  var content = '<h3>Select a Template (I didn\'t build this just for one look!)</h3>';
+  var content = '<h4>Select a Template (I didn\'t build this just for one look!)</h4>';
 
   //Build the content
   $.each(templates, function(shortName, name){
     content += '<span class="label label-success label-resume" onclick="loadTemplate(\''+shortName+'.html\', true)">'+name+'</span>';
   });
+
+  content += "<br/><h4>Oh and feel free to modify the underlying data too!  (Reverts on page reload or reset)</h4>
+    <br/><textarea id=\"json-field\" class=\"form-control\" rows=\"100\"></textarea>
+    <br/><a class=\"btn btn-success\" onclick=\"clickFromField();\"></a><a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a> ";
 
   //Place content on page
   $('.template-selection').html(content);
@@ -131,7 +137,7 @@ function clickFromField(){
   fustyResume.fromFile = false;
 }
 
-function clickResetFromFIeld(){
+function clickResetFromField(){
   getResumeJSON();
   fustyResume.fromFile = true;
 }
