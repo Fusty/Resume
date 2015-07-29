@@ -4,7 +4,7 @@
 //Inspired by jsonresume.org
 
 $(document).ready(function(){
-  loadTemplate("template.html");
+  loadTemplate("default-template.html");
 });
 
 function loadTemplate(template){
@@ -28,13 +28,14 @@ function drawTemplateSelection(){
   //Array of available templates
   //TODO: Get this from a json file/object instead
   var templates = {
+    "default" : "Default"
     "dark" : "Darkened"
   }
   var content = '<h3>Select a Template (I didn\'t build this just for one look!)</h3>';
 
   //Build the content
   $.each(templates, function(shortName, name){
-    content += '<span class="label label-success">'+name+'</span>';
+    content += '<span class="label label-success" onclick="loadTemplate(\''+shortName+'-template.html\')">'+name+'</span>';
   });
 
   //Place content on page
