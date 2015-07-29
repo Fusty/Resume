@@ -25,9 +25,7 @@ function fillResume(index, data){
 		if(data instanceof Array){
 			$.each(data, function(i,v){
 				//If the template exists, fill it!
-				console.log('#'+index.substring(1)+"-template");
 				if($('#'+index.substring(1)+"-template")[0]){
-					console.log('Found template '+index.substring(1).substring());
 					//Clear .holding-ground
 					$('.holding-ground').html('');
 
@@ -48,8 +46,6 @@ function fillResume(index, data){
 					//Change index.substring(1)-n-subindex.substring(1) to index.substring(1)-i-subindex.substring(1)
 					var find = new RegExp(index.substring(1)+'-n', 'g');
 					html = html.replace(find, index.substring(1)+'-'+i);
-
-					console.log(html);
 
 					//Stick the html back in after the template
 					$('#'+index.substring(1)+"-template").parent().append(html);
@@ -74,6 +70,7 @@ function fillSingleField(index, value){
 	}else if(index.match(/-publications-[0-9]*-website/)){
 		$('#'+index.substring(1).replace('website', 'name')).attr('href', value);
 	}else if(index.match(/-basics-profiles-[0-9]*-url/)){
+    console.log(index);
     $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
     $('#'+index.substring(1).replace('url', 'network')).addClass('fa-'+value).addClass('link-'+value);
   }else{
