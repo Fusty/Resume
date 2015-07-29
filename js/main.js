@@ -4,7 +4,7 @@
 //Inspired by jsonresume.org
 
 $(document).ready(function(){
-  loadTemplate("default-template.html");
+  loadTemplate("template-default.html");
 });
 
 function loadTemplate(template){
