@@ -12,7 +12,7 @@ $(document).ready(function(){
 
 function loadTemplate(template){
   //Load up template
-  $.get(template, function(data){
+  $.get('template-'+template, function(data){
     $('body').html(data);
     //Load up JSON
     if(fustyResume.fromFile){
