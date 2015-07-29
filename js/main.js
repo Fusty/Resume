@@ -128,11 +128,11 @@ function fillSingleField(index, value){
 
 function clickFromField(){
   getResumeField();
-  var fustyResume.fromFile = false;
+  fustyResume.fromFile = false;
 }
 
 function clickResetFromFIeld(){
   getResumeJSON();
-  var fustyResume.fromFile = true;
+  fustyResume.fromFile = true;
 }
 
