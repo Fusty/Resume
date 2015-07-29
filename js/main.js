@@ -3,7 +3,6 @@
 //Recursive JSON based resume builder
 //Inspired by jsonresume.org
 
-
 $(document).ready(function(){
   loadTemplate("template.html");
 });
@@ -14,6 +13,7 @@ function loadTemplate(template){
     $('body').html(data);
     //Load up JSON
     getResumeJSON();
+    drawTemplateSelection();
   });
 }
 
@@ -24,8 +24,26 @@ function getResumeJSON(){
   });
 }
 
+function drawTemplateSelection(){\
+  //Array of available templates
+  //TODO: Get this from a json file/object instead
+  var templates = {
+    "dark" : "Darkened"
+  }
+  var content = '';
+
+  //Build the content
+  $.each(templates, function(shortName, name){
+    content += '<span class="label label-success">'+name+'</span>';
+  });
+
+  //Place content on page
+  $('.template-selection').html(content);
+}
+
+//Recursive resume filling!
 function fillResume(index, data){
-	//Recursive resume filling!
+  //If it's an object dive in, if not try and .text() it's value into it's index-id pair
 	if(typeof data == 'object'){
 		//If it's an array we'll see if we need to iterate it's container
 		if(data instanceof Array){
@@ -69,6 +87,7 @@ function fillResume(index, data){
 
 function fillSingleField(index, value){
 	//Handle images, hrefs etc.
+  //TODO perhaps turn this into an object (unless we've hit abstraction stagnation)
 	if(index == 'basics-picture'){
 		$('#'+index.substring(1)).attr('src',value);
 	}else if(index.match(/-work-[0-9]*-website/)){
