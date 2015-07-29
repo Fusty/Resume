@@ -11,9 +11,13 @@ $(document).ready(function(){
 });
 
 function loadTemplate(template){
+  //Save the json-field state
+  var jsonField = $('#json-field').val();
+
   //Load up template
   $.get('template-'+template, function(data){
     $('body').html(data);
+    $('#json-field').val(jsonField);
     //Load up JSON
     if(fustyResume.fromFile){
       getResumeJSON();
@@ -36,8 +40,12 @@ function getResumeJSON(){
 }
 
 function getResumeField(){
-  data = JSON.parse($('#json-field').val());
-  fillResume("", data);
+  if(tpeof $('#json-field').val() == 'undefined'){
+
+  }else{
+    data = JSON.parse($('#json-field').val());
+    fillResume("", data);
+  }
 }
 
 function makeFromField(){
