@@ -30,7 +30,7 @@ function drawTemplateSelection(){\
   var templates = {
     "dark" : "Darkened"
   }
-  var content = '';
+  var content = '<h3>Select a Template (I didn\'t build this just for one look!)</h3>';
 
   //Build the content
   $.each(templates, function(shortName, name){
