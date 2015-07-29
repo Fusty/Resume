@@ -5,20 +5,23 @@
 
 
 $(document).ready(function(){
-  //Load up template
-  $('#body').load("template.html body", function(){
-    console.log("HEY");
-  });
-
-	//Load up JSON
-	getResumeJSON();
+  loadTemplate("template.html");
 });
+
+function loadTemplate(template){
+  //Load up template
+  $.get(template, function(data){
+    $('body').html(data);
+    //Load up JSON
+    getResumeJSON();
+  });
+}
 
 function getResumeJSON(){
 	$.getJSON("resume.json", function(data){
 		//Go populate page
-		fillResume("", data)
-;	});
+		fillResume("", data);	
+  });
 }
 
 function fillResume(index, data){
