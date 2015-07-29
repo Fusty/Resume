@@ -5,6 +5,9 @@
 
 
 $(document).ready(function(){
+  //Load up template
+  $('body').html.load("template.html body");
+  
 	//Load up JSON
 	getResumeJSON();
 });
