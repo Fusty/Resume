@@ -35,7 +35,7 @@ function drawTemplateSelection(){
 
   //Build the content
   $.each(templates, function(shortName, name){
-    content += '<span class="label label-success" onclick="loadTemplate(\''+shortName+'-template.html\')">'+name+'</span>';
+    content += '<span class="label label-success" onclick="loadTemplate(\'template-'+shortName+'.html\')">'+name+'</span>';
   });
 
   //Place content on page
