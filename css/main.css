@@ -57,9 +57,9 @@
 }
 
 #basics-picture {
-    -webkit-border-radius: 40%px;
-    -moz-border-radius: 40%px;
-    border-radius: 40%px;
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    border-radius: 40%;
 }
 
 .card-wrapper {
