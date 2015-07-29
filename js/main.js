@@ -73,6 +73,8 @@ function fillSingleField(index, value){
     $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
   }else if(index.match(/-basics-profiles-[0-9]*-network/)){
     $('#'+index.substring(1)).addClass('fa-'+value).addClass('link-'+value);
+  }else if(index.match(/-basics-picture/)){
+    $('#'+index.substring(1)).attr('src', value).text('');
   }else{
 		$('#'+index.substring(1)).text(value);
 	}
