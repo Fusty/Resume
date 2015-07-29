@@ -103,6 +103,10 @@
     margin:.5em;
 }
 
+#json-field {
+    white-space: pre;
+}
+
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
