@@ -40,7 +40,7 @@ function getResumeJSON(){
 }
 
 function getResumeField(){
-  if(tpeof $('#json-field').val() == 'undefined'){
+  if(typeof $('#json-field').val() == 'undefined'){
 
   }else{
     data = JSON.parse($('#json-field').val());
