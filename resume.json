@@ -149,7 +149,7 @@
     {
       "name": "University of Akron Google Search Appliance",
       "publisher": "University of Akron",
-      "releaseDate": "2015-06",
+      "releaseDate": "June 2015",
       "website": "http://gsa.uakron.edu/",
       "summary": "Heavy XSLT modifications to the GSA so it looks like the rest of uakron.edu sites"
     }
