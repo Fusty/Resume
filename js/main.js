@@ -72,7 +72,7 @@ function fillSingleField(index, value){
 	}else if(index.match(/-basics-profiles-[0-9]*-url/)){
     $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
   }else if(index.match(/-basics-profiles-[0-9]*-network/)){
-    $('#'+index.substring(1).addClass('fa-'+value).addClass('link-'+value);
+    $('#'+index.substring(1)).addClass('fa-'+value).addClass('link-'+value);
   }else{
 		$('#'+index.substring(1)).text(value);
 	}
