@@ -51,7 +51,10 @@
     box-shadow:0 2px #DCCF44;
 }
 
-
+.more-card {
+    border-bottom:2px solid #0C5B72;
+    box-shadow:0 2px #6AB0C4;
+}
 
 .card-wrapper {
     -webkit-border-top-left-radius: 5px;
