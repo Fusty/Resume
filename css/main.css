@@ -56,6 +56,12 @@
     box-shadow:0 2px #6AB0C4;
 }
 
+#basics-picture {
+    -webkit-border-radius: 40%px;
+    -moz-border-radius: 40%px;
+    border-radius: 40%px;
+}
+
 .card-wrapper {
     -webkit-border-top-left-radius: 5px;
     -webkit-border-top-right-radius: 5px;
