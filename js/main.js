@@ -17,7 +17,6 @@ function loadTemplate(template){
   $.get('template-'+template, function(data){
     var jsonField = $('#json-field').val();
     $('body').html(data);
-    $('#json-field').val(jsonField);
     console.log(jsonField);
     //Load up JSON
     if(fustyResume.fromFile){
@@ -28,6 +27,7 @@ function loadTemplate(template){
 
     //Draw the template selection (not entire template, that happened already!)
     drawTemplateSelection();
+    $('#json-field').val(jsonField);
   });
 }
 
