@@ -18,6 +18,7 @@ function loadTemplate(template){
     var jsonField = $('#json-field').val();
     $('body').html(data);
     $('#json-field').val(jsonField);
+    console.log(jsonField);
     //Load up JSON
     if(fustyResume.fromFile){
       getResumeJSON();
