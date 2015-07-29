@@ -11,13 +11,16 @@ $(document).ready(function(){
 });
 
 function loadTemplate(template){
-  //Save the json-field state
-
+  fustyResume.currentTemplate = template;
   //Load up template
   $.get('template-'+template, function(data){
     var jsonField = $('#json-field').val();
     $('body').html(data);
-    console.log(jsonField);
+
+    //Draw the template selection (not entire template, that happened already!)
+    drawTemplateSelection();
+    $('#json-field').val(jsonField);
+
     //Load up JSON
     if(fustyResume.fromFile){
       getResumeJSON();
@@ -25,9 +28,6 @@ function loadTemplate(template){
       getResumeField();
     }
 
-    //Draw the template selection (not entire template, that happened already!)
-    drawTemplateSelection();
-    $('#json-field').val(jsonField);
   });
 }
 
@@ -42,7 +42,7 @@ function getResumeJSON(){
 
 function getResumeField(){
   if(typeof $('#json-field').val() == 'undefined'){
-
+    loadTemplate(fustyResume.currentTemplate);
   }else{
     data = JSON.parse($('#json-field').val());
     fillResume("", data);
