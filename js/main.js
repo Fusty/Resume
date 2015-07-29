@@ -36,7 +36,7 @@ function getResumeJSON(){
 }
 
 function getResumeField(){
-  data = $('#json-field').val();
+  data = JSON.parse($('#json-field').val());
   console.log(data);
   fillResume("", data);
 }
