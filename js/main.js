@@ -6,7 +6,7 @@
 
 $(document).ready(function(){
   //Load up template
-  $('body').load("template.html body", function(){
+  $('#body').load("template.html body", function(){
     console.log("HEY");
   });
 
