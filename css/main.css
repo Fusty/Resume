@@ -106,6 +106,10 @@
     margin:.5em;
 }
 
+.label-lineheight {
+    line-height:200%;
+}
+
 #json-field {
     white-space: pre;
 }
