@@ -122,6 +122,8 @@
     .label {
         margin-top:.5em;
         margin-bottom:.5em;
+        border:none;
+        box-shadow:none;
     }
 }
 
