@@ -16,9 +16,9 @@ function loadTemplate(template){
     $('body').html(data);
     //Load up JSON
     if(fustyResume.fromFile){
-      getResumeField();
-    }else{
       getResumeJSON();
+    }else{
+      getResumeField();
     }
 
     //Draw the template selection (not entire template, that happened already!)
