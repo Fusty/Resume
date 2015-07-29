@@ -27,7 +27,6 @@ function loadTemplate(template){
     }else{
       getResumeField();
     }
-
   });
 }
 
@@ -67,10 +66,10 @@ function drawTemplateSelection(){
     content += '<span class="label label-success label-resume" onclick="loadTemplate(\''+shortName+'.html\', true)">'+name+'</span>';
   });
 
-  content += "<br/><br/><h4>Oh and feel free to modify the underlying data too!  (Reverts on page reload or reset)</h4>"+
-    "&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a>&nbsp;<a class=\"btn btn-danger bottom-margin\" onclick=\"clickResetFromField();\">Reset</a>"+
+  content += "<br/><br/><h4>Oh, and feel free to modify the underlying data too!  (Reverts on page reload or reset)</h4>"+
+    "&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON from textarea</a>&nbsp;<a class=\"btn btn-danger bottom-margin\" onclick=\"clickResetFromField();\">Reset</a>"+
     "<br/><br/><textarea id=\"json-field\" class=\"form-control \" rows=\"100\"></textarea>"+
-    "<br/>&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a>&nbsp;<a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a>"+
+    "<br/>&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON from textarea</a>&nbsp;<a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a>"+
     "<br/>";
 
   //Place content on page

@@ -191,5 +191,10 @@
     }
   ],
   "interests": [],
-  "references": []
+  "references": [
+    {
+      "name": "Brad Rice - Web Graphics Designer at The University of Akron",
+      "reference": "Alex is a rare find. He has the ability to quickly prototype applications, then build them out. He has exceptional skills in a number of programming languages, php being his strong suit. But he can use what he knows as a MVC programmer and use it with a variety of languages and frameworks. He also knows front end development with javascript and css.   I would highly recommend Alex to anyone considering employing him. Not only are his skill levels extremely good, he is a great person to work with."
+    }
+  ]
 }
