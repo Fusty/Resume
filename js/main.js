@@ -28,7 +28,7 @@ function drawTemplateSelection(){
   //Array of available templates
   //TODO: Get this from a json file/object instead
   var templates = {
-    "default" : "Default"
+    "default" : "Default",
     "dark" : "Darkened"
   }
   var content = '<h3>Select a Template (I didn\'t build this just for one look!)</h3>';
