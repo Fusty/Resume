@@ -116,8 +116,8 @@
     }
 
     a[href]:after {
-        content: " (" attr(href) ")";
-    }    
+        content: none !important;
+    }
 }
 
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
