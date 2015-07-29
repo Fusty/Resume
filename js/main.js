@@ -24,7 +24,7 @@ function getResumeJSON(){
   });
 }
 
-function drawTemplateSelection(){\
+function drawTemplateSelection(){
   //Array of available templates
   //TODO: Get this from a json file/object instead
   var templates = {
