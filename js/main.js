@@ -12,10 +12,10 @@ $(document).ready(function(){
 
 function loadTemplate(template){
   //Save the json-field state
-  var jsonField = $('#json-field').val();
 
   //Load up template
   $.get('template-'+template, function(data){
+    var jsonField = $('#json-field').val();
     $('body').html(data);
     $('#json-field').val(jsonField);
     //Load up JSON
