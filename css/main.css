@@ -118,6 +118,11 @@
     a[href]:after {
         content: none !important;
     }
+
+    .label {
+        margin-top:.5em;
+        margin-bottom:.5em;
+    }
 }
 
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
