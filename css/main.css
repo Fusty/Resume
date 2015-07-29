@@ -110,6 +110,16 @@
     white-space: pre;
 }
 
+@media print {
+    .no-print {
+        display:none;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }    
+}
+
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
