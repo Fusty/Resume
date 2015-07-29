@@ -135,11 +135,13 @@ function fillSingleField(index, value){
 }
 
 function clickFromField(){
+  window.scrollTo(0,0);
   getResumeField();
   fustyResume.fromFile = false;
 }
 
 function clickResetFromField(){
+  window.scrollTo(0,0);
   getResumeJSON();
   fustyResume.fromFile = true;
 }
