@@ -59,9 +59,9 @@ function drawTemplateSelection(){
   });
 
   content += "<br/><br/><h4>Oh and feel free to modify the underlying data too!  (Reverts on page reload or reset)</h4>"+
-    "<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a><a class=\"btn btn-danger bottom-margin\" onclick=\"clickResetFromField();\">Reset</a>"+
+    "&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a>&nbsp;<a class=\"btn btn-danger bottom-margin\" onclick=\"clickResetFromField();\">Reset</a>"+
     "<br/><br/><textarea id=\"json-field\" class=\"form-control \" rows=\"100\"></textarea>"+
-    "<br/><a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a><a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a>"+
+    "<br/>&nbsp;<a class=\"btn btn-success\" onclick=\"clickFromField();\">Load JSON</a>&nbsp;<a class=\"btn btn-danger\" onclick=\"clickResetFromField();\">Reset</a>"+
     "<br/>";
 
   //Place content on page
