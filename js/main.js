@@ -1,10 +1,12 @@
 //Author:  Alex Sterling
 //2015-07-28
 //Recursive JSON based resume builder
-//Inspired by jsonresume.org
+//Inspired by jsonresume.org but I never checked their source, checking their source as of 2015/07/28 22:25:00
+var fustyResume.currentTemplate = "default";
+var fustyResume.fromFile = true;
 
 $(document).ready(function(){
-  loadTemplate("template-default.html");
+  loadTemplate(fustyResume.currentTemplate);
 });
 
 function loadTemplate(template){
@@ -12,7 +14,13 @@ function loadTemplate(template){
   $.get(template, function(data){
     $('body').html(data);
     //Load up JSON
-    getResumeJSON();
+    if(fustyResume.fromFile){
+      getResumeField();
+    }else{
+      getResumeJSON();
+    }
+
+    //Draw the template selection (not entire template, that happened already!)
     drawTemplateSelection();
   });
 }
@@ -22,6 +30,15 @@ function getResumeJSON(){
 		//Go populate page
 		fillResume("", data);	
   });
+}
+
+function getResumeField(){
+  data = $('#json-field').text();
+  fillResume("", data);
+}
+
+function makeFromField(){
+  fromFile = false;
 }
 
 function drawTemplateSelection(){
@@ -35,7 +52,7 @@ function drawTemplateSelection(){
 
   //Build the content
   $.each(templates, function(shortName, name){
-    content += '<span class="label label-success label-resume" onclick="loadTemplate(\'template-'+shortName+'.html\')">'+name+'</span>';
+    content += '<span class="label label-success label-resume" onclick="loadTemplate(\'template-'+shortName+'.html\', true)">'+name+'</span>';
   });
 
   //Place content on page
@@ -107,3 +124,14 @@ function fillSingleField(index, value){
 		$('#'+index.substring(1)).text(value);
 	}
 }
+
+function clickFromField(){
+  getResumeField();
+  var fustyResume.fromFile = false;
+}
+
+function clickResetFromFIeld(){
+  getResumeJSON();
+  var fustyResume.fromFile = true;
+}
+
