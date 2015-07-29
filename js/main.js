@@ -6,8 +6,8 @@
 
 $(document).ready(function(){
   //Load up template
-  $('body').html.load("template.html body");
-  
+  $('body').load("template.html body");
+
 	//Load up JSON
 	getResumeJSON();
 });
@@ -15,8 +15,8 @@ $(document).ready(function(){
 function getResumeJSON(){
 	$.getJSON("resume.json", function(data){
 		//Go populate page
-		fillResume("", data);
-	});
+		fillResume("", data)
+;	});
 }
 
 function fillResume(index, data){
