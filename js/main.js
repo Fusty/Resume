@@ -73,6 +73,8 @@ function fillSingleField(index, value){
     $('#'+index.substring(1)).addClass('fa-'+value).addClass('link-'+value);
   }else if(index.match(/-basics-picture/)){
     $('#'+index.substring(1)).attr('src', value).text('');
+  }else if(index.match(/-basics-email/)){
+    $('#'+index.substring(1)).attr('href', 'mailto:'+value).text(value);
   }else{
 		$('#'+index.substring(1)).text(value);
 	}
