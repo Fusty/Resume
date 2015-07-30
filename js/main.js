@@ -57,7 +57,8 @@ function drawTemplateSelection(){
   //TODO: Get this from a json file/object instead
   var templates = {
     "default" : "Default",
-    "dark" : "Darkened"
+    "dark" : "Dark Default",
+    "boxy" : "Boxier Default"
   }
   var content = '<h4>Select a Template (I didn\'t build this just for one look!)</h4>';
 
