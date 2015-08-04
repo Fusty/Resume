@@ -6,7 +6,7 @@
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
-    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He doesn't mind spanning the entire web stack or learning new languages or technologies to get the job done perfectly.  With 5 years of experience building web applications and skills in PHP, JavaScript, SQL, CSS, HTML5 and more Alex can deliver web solutions.",
+    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He has experience in spanning the entire web stack and learning new languages or technologies to get the job done perfectly.  Extensive knowledge of building PHP backend data services to support applications comes paired with frontend JavaScript mastery.  With 5 years of experience building web applications and skills in PHP, JavaScript, dotCMS, SQL, CSS, HTML5 and more Alex can deliver powerful web solutions.",
     "location": {
       "address": "153 Westgate Ave.",
       "postalCode": "44281",
@@ -38,6 +38,7 @@
       "highlights": [
         "Mastery of debugging PHP, JavaScript, SQL queries, CSS, HTML, Apache Velocity and more",
         "Mastery of API interfacing (JavaScript, PHP, REST, SOAP etc.)",
+        "Extensive dotCMS backend experience",
         "Extensive use of VI/VIM, SublimeText and PHPStorm",
         "Experience on Linux servers (Ubuntu 12.04 and RedHat 6)",
         "Extensive use of, and preference for, command line tools",
@@ -159,14 +160,14 @@
       "name": "Web Development",
       "level": "Lead Developer",
       "keywords": [
+        "PHP 6yrs",
+        "SQL 6yrs",
         "HTML 6yrs",
         "CSS 5yrs",
         "Javascript 5yrs",
-        "SQL 6yrs",
-        "PHP 5yrs",
+        "dotCMS 4yrs",
         "GULP 2yrs",
         "NPM 2yrs",
-        "dotCMS 4yrs",
         "Apache Velocity 2yrs"
       ]
     },

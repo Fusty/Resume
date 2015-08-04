@@ -3,7 +3,7 @@
 //Recursive JSON based resume builder
 //Inspired by jsonresume.org but I never checked their source, checking their source as of 2015/07/28 22:25:00
 var fustyResume = {};
-fustyResume.currentTemplate = "default";
+fustyResume.currentTemplate = "default.html";
 fustyResume.fromFile = true;
 
 $(document).ready(function(){
