@@ -11,6 +11,7 @@ $(document).ready(function(){
 });
 
 function loadTemplate(template){
+  jQuery('html,body').animate({scrollTop:0},100);
   fustyResume.currentTemplate = template;
   //Load up template
   $.get('template-'+template, function(data){
