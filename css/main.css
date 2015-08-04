@@ -36,6 +36,11 @@
     box-shadow:0 2px #A781B9;
 }
 
+.references-card {
+    border-bottom:2px solid #13576A;
+    box-shadow:0 2px #42BADD;
+}
+
 .skills-card {
     border-bottom:2px solid #026B1B;
     box-shadow:0 2px #96C5A1;
