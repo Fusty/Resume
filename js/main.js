@@ -126,21 +126,21 @@ function fillSingleField(index, value){
 	//Handle images, hrefs etc.
   //TODO perhaps turn this into an object (unless we've hit abstraction stagnation)
 	if(index == 'basics-picture'){
-		$('#'+index.substring(1)).attr('src',value);
+	    $('#'+index.substring(1)).attr('src',value);
 	}else if(index.match(/-work-[0-9]*-website/)){
-		$('#'+index.substring(1).replace('website', 'company')).attr('href', value);
+	    $('#'+index.substring(1).replace('website', 'company')).attr('href', value);
 	}else if(index.match(/-publications-[0-9]*-website/)){
-		$('#'+index.substring(1).replace('website', 'name')).attr('href', value);
+	    $('#'+index.substring(1).replace('website', 'name')).attr('href', value);
 	}else if(index.match(/-basics-profiles-[0-9]*-url/)){
-    $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
-  }else if(index.match(/-basics-profiles-[0-9]*-network/)){ 
-    $('#'+index.substring(1)).addClass('fa-'+value).addClass('link-'+value);
-  }else if(index.match(/-basics-picture/)){
-    $('#'+index.substring(1)).attr('src', value).text('');
-  }else if(index.match(/-basics-email/)){
-    $('#'+index.substring(1)).attr('href', 'mailto:'+value).text(value);
-  }else{
-		$('#'+index.substring(1)).text(value);
+	    $('#'+index.substring(1).replace('url', 'network')).attr('href', value);
+	}else if(index.match(/-basics-profiles-[0-9]*-network/)){ 
+	    $('#'+index.substring(1)).addClass('fa-'+value).addClass('link-'+value);
+	}else if(index.match(/-basics-picture/)){
+	    $('#'+index.substring(1)).attr('src', value).text('');
+	}else if(index.match(/-basics-email/)){
+	    $('#'+index.substring(1)).attr('href', 'mailto:'+value).text(value);
+	}else{
+	    $('#'+index.substring(1)).text(value);
 	}
 }
 
