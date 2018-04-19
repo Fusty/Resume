@@ -169,13 +169,6 @@
       "summary": "Business site for WorldatWork, a global leader in human resources education specializing in compensation.  The site is built on DotCMS on top of numerous microservices as well as third party integrations.  Primary responsibilities were backend API development, migration systems development, VueJS frontend applications (account manipulation, registration, searching) and other content related items"
     },
     {
-      "name": "WorldatWork Site",
-      "publisher": "WorldatWork",
-      "releaseDate": "January 2018",
-      "website": "https://www.worldatwork.org",
-      "summary": "Business site for WorldatWork, a global leader in human resources education specializing in compensation.  The site is built on DotCMS on top of numerous microservices as well as third party integrations.  Primary responsibilities were backend API development, migration systems development, VueJS frontend applications (account manipulation, registration, searching) and other content related items"
-    },
-    {
       "name": "MyPraize Social Media Platform",
       "publisher": "MyPraize",
       "releaseDate": "2017",
