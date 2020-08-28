@@ -1,0 +1,175 @@
+
+        <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <style>
+            .card-wrapper {
+                border:none;
+            }
+
+            .basics-about-card-wrapper .card{
+                min-height:350px;
+            }
+
+            .skills-education-card-wrapper .card {
+                min-height:350px;
+            }
+
+            .card {
+                background-color:#fff;
+                margin:15px;
+                padding:30px;
+                -webkit-border-radius: 3px;
+                -moz-border-radius: 3px;
+                border-radius: 3px;
+
+                -webkit-box-shadow: 2px 2px 0px 0px rgba(221,221,221,1);
+                -moz-box-shadow: 2px 2px 0px 0px rgba(221,221,221,1);
+                box-shadow: 2px 2px 0px 0px rgba(221,221,221,1);
+            }
+
+            #basics-picture {
+                -webkit-border-radius: 50%;
+                -moz-border-radius: 50%;
+                border-radius: 50%;
+                height:200px;
+                position:relative;
+            }
+
+            .profile-icon-div {
+                margin-top:.5em;
+                font-size:2.5em;
+            }
+
+        </style>
+
+        <div class="container-fluid">
+            <br/>
+            <div class="row">
+                <div class="col-xs-12 col-sm-5 card-wrapper basics-about-card-wrapper">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-xs-6 hidden-xs">
+                                <img id="basics-picture" src=""/>
+                            </div>
+                            <div class="col-xs-6">
+                                <h1><span id="basics-name"></span><br/><small id="basics-label"></small></h1>
+                                    <span class="glyphicon glyphicon-send"></span>&nbsp;
+                                    <span id="basics-location-city"></span>,<span id="basics-location-countryCode"></span><br/><br/>
+                                    <span class="glyphicon glyphicon-earphone"></span>&nbsp;
+                                    <span id="basics-phone"></span><br/><br/>
+                                    <span class="glyphicon glyphicon-envelope"></span>&nbsp;
+                                    <a id="basics-email" href=""></a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 profile-icon-div center-content">
+                                <span id="basics-profiles-template" class="profile-icon">
+                                    <a id="basics-profiles-n-network" class="fa fa-2x social-link">&nbsp;</a>
+                                </span>                            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-7 card-wrapper basics-about-card-wrapper">
+                    <div class="card">
+                        <h1>About</h1>
+                        <p id="basics-summary"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-7 card-wrapper skills-education-card-wrapper">
+                    <div class="card">
+                        <h1>Education</h1>
+                        <div class="row">
+                            <div id="education-template" class="col-xs-12 bottom-margin-1">
+                                <span id="education-n-area" class="bold-heading-sm"></span>, <span id="education-n-studyType"></span>, <span id="education-n-institution"></span>
+                                <br/>
+                                <span id="education-n-startDate" class="light-subtext"></span> - <span id="education-n-endDate" class="light-subtext"></span>
+                                <br/>
+                                <div class="label-lineheight">
+                                    <span id="education-n-courses-template">
+                                        <span id="education-n-courses-n" class="label label-primary label-lg"></span>
+                                    </span>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-5 card-wrapper skills-education-card-wrapper">
+                    <div class="card">
+                        <h1>Skills</h1>
+                        <div class="row">
+                            <div id="skills-template" class="col-xs-12 bottom-margin-1 label-lineheight">
+                                <span id="skills-n-name" class="bold-heading-sm"></span>&nbsp;-&nbsp;
+                                <span id="skills-n-level" class="bold-heading-sm"></span>
+                                <br/>
+                                <span id="skills-n-keywords-template">
+                                    <span id="skills-n-keywords-n" class="label label-primary label-lg"></span>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row work-examples-row">
+                <div class="col-xs-12 col-sm-6 card-wrapper work-card-wrapper">
+                    <div class="card">
+                        <h2>Work Experience</h2>
+                        <div class="row">
+                            <!-- work-container template -->
+                            <div id="work-template" class="col-xs-12">
+                                <span id="work-n-position" class="bold-heading-sm"></span>, <a id="work-n-company" href=""></a>
+                                <br/>
+                                <span id="work-n-startDate" class="light-subtext"></span> - <span id="work-n-endDate" class="light-subtext"></span>
+                                <br/>
+                                <p id="work-n-summary"></p>
+                                <ul>
+                                    <div id="work-n-highlights-template">
+                                        <li id="work-n-highlights-n"></li>
+                                    </div>
+                                </ul>
+                                <hr/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 card-wrapper examples-card-wrapper">
+                    <div class="row">
+                        <div class="col-xs-12 card">
+                            <h2>Examples</h2>
+                            <div class="row">
+                                <div id="portfolio-template" class="col-xs-12 bottom-margin-1">
+                                    <a id="portfolio-n-name" href="" class="bold-heading-sm"></a>, <span id="portfolio-n-publisher" class="lighter-subtext"></span>
+                                    <br/>
+                                    <span class="lighter-subtext">Live as of: <span id="portfolio-n-releaseDate"></span></span>
+                                    <br/><br/>
+                                    <p id="portfolio-n-summary"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 card">
+                            <h2>Reference(s)</h2>
+                            <div class="row">
+                                <div id="references-template" class="col-xs-12 bottom-margin-1">
+                                    <span id="references-n-name" class="bold-heading"></span>
+                                    <p id="references-n-reference"></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xs-12 card">
+                            <h2>. . . More</h2><br/>
+                            <h4>I wrote this resume application myself back in 2015.  That was before I was all-in with JavaScript frameworks.  Still works pretty well regardless, eh?</h4>
+                            <div class="template-selection"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row center-content">
+                Copyright 2015 - Alex Sterling
+            </div>
+        </div>
+        <div class="holding-ground">
+        </div>

@@ -2,11 +2,11 @@
   "basics": {
     "name": "Alex Sterling",
     "label": "Developer",
-    "picture": "",
+    "picture": "headshotweb.jpg",
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
-    "summary": "Alex is from Wadsworth, Ohio.  ",
+    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He has experience spanning the entire web stack and learning new languages, frameworks or technologies to get the job done perfectly.  Extensive knowledge of building PHP, Java and NodeJS backend data services to support applications comes paired with frontend JavaScript/HTML/CSS mastery.  With 7 years of experience building web applications and skills in PHP, Java, NodeJS, JavaScript, DotCMS, SQL, CSS, HTML5, Dev-Ops, Testing and more Alex can deliver powerful web solutions that are maintainable.",
     "location": {
       "address": "153 Westgate Ave.",
       "postalCode": "44281",
@@ -16,24 +16,54 @@
     },
     "profiles": [
       {
-        "network": "Github",
+        "network": "github",
         "username": "fusty",
         "url": "http://github.com/fusty"
+      },
+      {
+        "network": "bitbucket",
+        "username": "alex_sterling",
+        "url": "http://bitbucket.org/alex_sterling"
       }
     ]
   },
   "work": [
+    {
+      "company": "Ethode LLC",
+      "position": "Senior Web Developer",
+      "website": "https://www.ethode.com",
+      "startDate": "09-01-2015",
+      "endDate": "Present",
+      "summary": "Developing for an array of clients, codebases and programming paradigms, working for Ethode has been a huge influence to increase Alex's depth in programming skills along with project architecture, dev-ops and systems administration.  The diverse needs of the clients taken on by Ethode taught important lessons in agile development, mixed-presence collaboration, business rule translation, expectation management and more.  Expertise in JavaScript (including AngularJS and especially VueJS frameworks), CSS (including preprocessors like LESS and SASS/SCSS as well as Bootstrap 3/4), Java (including Spring framework), Apache Webserver, Jenkins and more was developed over the past 2+ years.",
+      "highlights": [
+        "Vastly deeper experience and mastery with the Java CMS: DotCMS",
+        "Java Application and Plugin development",
+        "Integrating third party APIs",
+        "Utilizing open source libraries extensively",
+        "Mastery of the VueJS (and Vuex) JavaScript framework",
+        "Experience with task runners and build tools such as Gulp, Browserify and Webpack",
+        "Developed and maintained backend applications running on Java, PHP, and Node",
+        "Developed and maintained frontend applications using Vanilla JS, VueJS, AngularJS, jQuery and LESS/SASS/SCSS",
+        "Led sessions discussing and teaching emergent topics in web dev such as VueJS, SASS/SCSS, Laravel, JavaScript, FlexBox, SSL Certificates and more",
+        "Automated deployment of web applications and webservices using Jenkins",
+        "Automated testing of web applications using various acceptance testing frameworks (primarily NodeJS based)",
+        "Deep familiarity with *nix server management including Centos, Debian, RHEL, Amazon Linux and others",
+        "Emphasis on frequent customer contact and collaboration with product owners",
+        "Large team Git repository managmeent",
+        "Mixed-Presence Agnostic"
+      ]
+    },
     {
       "company": "University of Akron, Information and Technology Services",
       "position": "Senior Web Developer",
       "website": "http://www.uakron.edu",
       "startDate": "06-02-2013",
       "endDate": "08-14-2015",
-      "summary": "As Senior Web Developer I was in charge of web application design and development.  All work was deployed on RedHat 6 servers running PHP 5.3 and developed on Ubuntu 12.04 systems.  Extensive experience with build tools allowed me to cover the entire stack (htaccess/folder permissions to front end design) excluding Apache server settings when building applications",
+      "summary": "As Senior Web Developer Alex was in charge of web application design and development.  All work was deployed on RedHat 6 servers running PHP 5.3 and developed on Ubuntu 12.04 systems.  Extensive experience with build tools allowed him to cover the entire stack (htaccess/folder permissions to front end design) excluding Apache server settings when building applications",
       "highlights": [
         "Mastery of debugging PHP, JavaScript, SQL queries, CSS, HTML, Apache Velocity and more",
         "Mastery of API interfacing (JavaScript, PHP, REST, SOAP etc.)",
-        "",
+        "Extensive DotCMS backend experience",
         "Extensive use of VI/VIM, SublimeText and PHPStorm",
         "Experience on Linux servers (Ubuntu 12.04 and RedHat 6)",
         "Extensive use of, and preference for, command line tools",
@@ -92,7 +122,7 @@
       "summary": "The Digital Media Center is an advanced and specialized computer lab and equipment rental/borrowing facility.  The software on the computers ranges from 3D modeling/animation to Photoshop to ProTools.  The equipment facilitated the capture of media to be processed in the Digital Media Center.  A front desk worker would coach the patrons requesting assistance to the best of their ability as well as loaning equipment to patrons and training patrons on their use.",
       "highlights": [
         "Trained and coached college students on a variety of digital media software and projects.  Software included Adobe Creative Suite, Adobe Final Cut, Avid Suite, Microsoft Office, 3DS Max, and Maya 3D",
-        "Opened and closed a 20+ station computer lab also specializing in the loaning out of audio-visual caputre equipment and training on audio-visual equipment"
+        "Opened and closed a 20+ station computer lab also specializing in the loaning out of audio-visual capture equipment and training on audio-visual equipment"
       ]
     }
   ],
@@ -101,11 +131,14 @@
     {
       "institution": "The University of Akron",
       "area": "Computer Science",
-      "studyType": "Bachelors",
+      "studyType": "Incomplete Bachelors",
       "startDate": "2010-08",
-      "endDate": "2016-08",
+      "endDate": "2017-08",
       "gpa": "",
       "courses": [
+        "Object Oriented Programming (OOP Java)",
+        "Data Structures",
+        "Internet Systems Programming",
         "Introduction to C++",
         "Computer Science 2 (OOP C++)",
         "Discrete Mathematics",
@@ -115,7 +148,7 @@
     {
       "institution": "Johns Hopkins University",
       "area": "Mechanical Engineering",
-      "studyType": "Bachelors",
+      "studyType": "Incomplete Bachelors",
       "startDate": "2006-08",
       "endDate": "2008-01",
       "gpa": "",
@@ -127,7 +160,21 @@
     }
   ],
   "awards": [],
-  "publications": [
+  "portfolio": [
+    {
+      "name": "WorldatWork Site",
+      "publisher": "WorldatWork",
+      "releaseDate": "January 2018",
+      "website": "https://www.worldatwork.org",
+      "summary": "Business site for WorldatWork, a global leader in human resources education specializing in compensation.  The site is built on DotCMS on top of numerous microservices as well as third party integrations.  Primary responsibilities were backend API development, migration systems development, VueJS frontend applications (account manipulation, registration, searching) and other content related items"
+    },
+    {
+      "name": "MyPraize Social Media Platform",
+      "publisher": "MyPraize",
+      "releaseDate": "2017",
+      "website": "https://www.mypraize.com",
+      "summary": "A christian social media platform.  Primary responsibilities were improving the groups feature on the site."
+    },
     {
       "name": "University of Akron Campus Map",
       "publisher": "University of Akron",
@@ -145,7 +192,7 @@
     {
       "name": "University of Akron Google Search Appliance",
       "publisher": "University of Akron",
-      "releaseDate": "2015-06",
+      "releaseDate": "June 2015",
       "website": "http://gsa.uakron.edu/",
       "summary": "Heavy XSLT modifications to the GSA so it looks like the rest of uakron.edu sites"
     }
@@ -155,15 +202,22 @@
       "name": "Web Development",
       "level": "Lead Developer",
       "keywords": [
-        "HTML",
-        "CSS",
-        "Javascript",
-        "SQL",
-        "PHP",
-        "GULP",
-        "NPM",
-        "dotCMS",
-        "Apache Velocity"
+        "PHP 7yrs",
+        "Java 3yrs",
+        "Javascript 7yrs",
+        "NodeJS 2yrs",
+        "GIT 5yrs",
+        "SQL 7yrs",
+        "HTML 7yrs",
+        "CSS 7yrs",
+        "DotCMS 6yrs",
+        "GULP 4yrs",
+        "NPM/NodeJS 4yrs",
+        "Apache Velocity 4yrs",
+        "Jenkins 2yrs",
+        "Testing 2yrs",
+        "Programming Instruction 2yrs",
+        "Amazon AWS 3yrs"
       ]
     },
     {
@@ -178,6 +232,15 @@
         "Blender",
         "Unity3D"
       ]
+    },
+    {
+      "name": "Autocross",
+      "level": "Hobbyist",
+      "keywords": [
+        "CS/P3 Class (1988 Porsche 911 Cabriolet)",
+        "FS Class (2004 BMW M3)",
+        "GS Class (2016 Ford Focus ST)"
+      ]
     }
   ],
   "languages": [
@@ -186,6 +249,11 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": [],
-  "references": []
+  "interests": ["Autocross", "Gaming", "Skateboarding"],
+  "references": [
+    {
+      "name": "Brad Rice - Web Graphics Designer at The University of Akron",
+      "reference": "Alex is a rare find. He has the ability to quickly prototype applications, then build them out. He has exceptional skills in a number of programming languages, php being his strong suit. But he can use what he knows as a MVC programmer and use it with a variety of languages and frameworks. He also knows front end development with javascript and css.   I would highly recommend Alex to anyone considering employing him. Not only are his skill levels extremely good, he is a great person to work with."
+    }
+  ]
 }

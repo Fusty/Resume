@@ -1,3 +1,147 @@
+/* Alex Sterling Resume Styling - Followed by HTML5 Boilerplate */
+.container-fluid {
+    background-color:#F0F0F0;
+}
+
+.resume-card {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;       
+
+    background-color:#fff;
+
+    padding:15px;
+}
+
+.resume-card h1 {
+    margin:0;
+    padding-top:.75em;
+}
+
+.basics-card {
+    border-bottom:2px solid #081C66;
+    box-shadow:0 2px #797B85;
+}
+
+.about-card {
+    border-bottom:2px solid #6B3102;
+    box-shadow:0 2px #DC6E14;
+}
+
+.work-card {
+    border-bottom:2px solid #4A026B;
+    box-shadow:0 2px #A781B9;
+}
+
+.references-card {
+    border-bottom:2px solid #13576A;
+    box-shadow:0 2px #42BADD;
+}
+
+.skills-card {
+    border-bottom:2px solid #026B1B;
+    box-shadow:0 2px #96C5A1;
+}
+
+.education-card {
+    border-bottom:2px solid #660808;
+    box-shadow:0 2px #F05858;
+}
+
+.examples-card {
+    border-bottom:2px solid #665E08;
+    box-shadow:0 2px #DCCF44;
+}
+
+.more-card {
+    border-bottom:2px solid #0C5B72;
+    box-shadow:0 2px #6AB0C4;
+}
+
+#basics-picture {
+    -webkit-border-radius: 40%;
+    -moz-border-radius: 40%;
+    border-radius: 40%;
+}
+
+.card-wrapper {
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-radius: 5px;
+    border:1px solid #e6e6e6;
+}
+
+.card-wrapper-row {
+    margin-bottom:1em;
+}
+
+.center-content {
+    text-align:center;
+}
+
+.holding-ground {
+    display:none;
+}
+
+.bold-heading {
+    font-size:1.5em;
+    font-weight:bolder;
+}
+
+.bold-heading-sm {
+    font-size:1.125em;
+    font-weight:bolder;
+}
+
+.light-subtext {
+    color:#999;
+}
+
+.bottom-margin-1 {
+    margin-bottom:1em;
+}
+
+.label {
+    font-size:1em;
+}
+
+.label-resume {
+    cursor:pointer;
+    margin:.5em;
+}
+
+.label-lineheight {
+    line-height:200%;
+}
+
+#json-field {
+    white-space: pre;
+}
+
+@media print {
+    .no-print {
+        display:none;
+    }
+
+    a[href]:after {
+        content: none !important;
+    }
+
+    .label {
+        margin-top:.5em;
+        margin-bottom:.5em;
+        border:none;
+        box-shadow:none;
+    }
+}
+
 /*! HTML5 Boilerplate v5.2.0 | MIT License | https://html5boilerplate.com/ */
 
 /*
