@@ -6,7 +6,7 @@
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
-    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He has experience spanning the entire web stack and learning new languages, frameworks or technologies to get the job done perfectly.  Extensive knowledge of building PHP, Java and NodeJS backend data services to support applications comes paired with frontend JavaScript/HTML/CSS mastery.  With 7 years of experience building web applications and skills in PHP, Java, NodeJS, JavaScript, DotCMS, SQL, CSS, HTML5, Dev-Ops, Testing and more Alex can deliver powerful web solutions that are maintainable.",
+    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He has experience spanning the entire web stack and learning new languages, frameworks or technologies to get the job done perfectly.  Extensive knowledge of building PHP, Java and NodeJS backend data services to support applications comes paired with frontend JavaScript/Vue/HTML/CSS mastery.  With 9 years of experience building web applications and skills in PHP, Laravel, Java, NodeJS, JavaScript, VueJS, DotCMS, SQL, CSS, HTML5, Dev-Ops, Testing, Azure, Dedicated SQL Pools, Dynamics 365, RedShift, and more. Alex delivers powerful web solutions that are maintainable and durable.",
     "location": {
       "address": "153 Westgate Ave.",
       "postalCode": "44281",
@@ -29,12 +29,38 @@
   },
   "work": [
     {
+      "company": "mDesign",
+      "position": "Software Engineer II - Senior Data Engineer",
+      "website": "https://mdesignhomedecor.com/",
+      "startDate": "09-16-2019",
+      "endDate": "Present",
+      "summary": "Maintaining monolithic legacy PHP infrastructure.  Developing modular Laravel service application ecosystem to reduce dependence on legacy PHP infrastructure.  Developing AWS and Azure based cloud-infrastructure for ETL and data analytics.  Optimizing analytical SQL queries to minimize data reporting lag.  Spearheading the cross-functional collaboration and buy-in necessary to make company-spanning foundational reporting changes.",
+      "highlights": [
+        "Developed Data Warehouse for Big Data analytics alongside optimized CRUD app databases (OLAP and OLTP)",
+        "Expanded SQL knowledge beyond MySQL/MariaDB mastery into Postgres (Redshift) and T-SQL mastery",
+        "Optimized write performance for large datasets across multiple database technologies",
+        "Gained fluent understanding of maintaining columnar databases that lack built-in uniqueness or primary keys",
+        "Comfort with the Azure Data Factory platform and the Azure Portal",
+        "Mastered upgrading Laravel Projects from long-obsolete versions to current versions",
+        "Comfortable migrating terabytes of data between data sources, formats and platforms",
+        "Mastery of Laravel's Job Queue scheduling and CLI Commands",
+        "Developed exception reporting and system monitoring to ensure data integrity and platform uptime",
+        "Developed novel reporting on massive E-Commerce presence spanning Amazon, Wal Mart, Target, eBay and more",
+        "Developed novel reporting on Third Party Logistics",
+        "Deep knowledge of supply chain logistics spanning Vendor Relationships, Warehouse Management Systems, Enterprise Resource Planning, Third Party Fulfillment and Enterprise Resource Planning",
+        "Led discussions between IT and Business to unify terminology, align KPIs and produce repeatable metrics utilized across functional groups",
+        "Fostered GIT best practices and enforced CI/CD in new and legacy projects alike",
+        "Platform agnostic problem solving",
+        "Platform agnostic troubleshooting"
+      ]
+    },
+    {
       "company": "Ethode LLC",
       "position": "Senior Web Developer",
       "website": "https://www.ethode.com",
       "startDate": "09-01-2015",
-      "endDate": "Present",
-      "summary": "Developing for an array of clients, codebases and programming paradigms, working for Ethode has been a huge influence to increase Alex's depth in programming skills along with project architecture, dev-ops and systems administration.  The diverse needs of the clients taken on by Ethode taught important lessons in agile development, mixed-presence collaboration, business rule translation, expectation management and more.  Expertise in JavaScript (including AngularJS and especially VueJS frameworks), CSS (including preprocessors like LESS and SASS/SCSS as well as Bootstrap 3/4), Java (including Spring framework), Apache Webserver, Jenkins and more was developed over the past 2+ years.",
+      "endDate": "09-15-2019",
+      "summary": "Developed for an array of clients, codebases and programming paradigms, working for Ethode was a huge influence to increase Alex's depth in programming skills along with project architecture, dev-ops and systems administration.  The diverse needs of the clients taken on by Ethode taught important lessons in agile development, mixed-presence collaboration, business rule translation, expectation management and more.  Expertise in JavaScript (including AngularJS and especially VueJS frameworks), CSS (including preprocessors like LESS and SASS/SCSS as well as Bootstrap 3/4), Java (including Spring framework), Apache Webserver, Jenkins and more was developed over the past 2+ years.",
       "highlights": [
         "Vastly deeper experience and mastery with the Java CMS: DotCMS",
         "Java Application and Plugin development",
