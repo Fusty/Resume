@@ -51,7 +51,8 @@
         "Led discussions between IT and Business to unify terminology, align KPIs and produce repeatable metrics utilized across functional groups",
         "Fostered GIT best practices and enforced CI/CD in new and legacy projects alike",
         "Platform agnostic problem solving",
-        "Platform agnostic troubleshooting"
+        "Platform agnostic troubleshooting",
+        "Expanded Linux (CentOS, Ubuntu) fluency"
       ]
     },
     {
@@ -225,17 +226,29 @@
   ],
   "skills": [
     {
+      "name": "Data Engineer",
+      "level": "Senior Engineer",
+      "keywords": [
+        "SQL 9yrs",
+        "Analytical PHP 5yrs",
+        "JavaScript Graphical Rendering 4yrs",
+        "Azure Portal 2yrs",
+        "Dedicated SQL Pools 1yr",
+        "Redshift 1yr"
+      ]
+    },
+    {
       "name": "Web Development",
       "level": "Lead Developer",
       "keywords": [
-        "PHP 7yrs",
-        "Java 3yrs",
-        "Javascript 7yrs",
-        "NodeJS 2yrs",
-        "GIT 5yrs",
-        "SQL 7yrs",
-        "HTML 7yrs",
-        "CSS 7yrs",
+        "PHP 9yrs",
+        "Java 4yrs",
+        "Javascript 9yrs",
+        "NodeJS 4yrs",
+        "GIT 8yrs",
+        "SQL 9yrs",
+        "HTML 9yrs",
+        "CSS 9yrs",
         "DotCMS 6yrs",
         "GULP 4yrs",
         "NPM/NodeJS 4yrs",
@@ -243,7 +256,7 @@
         "Jenkins 2yrs",
         "Testing 2yrs",
         "Programming Instruction 2yrs",
-        "Amazon AWS 3yrs"
+        "Amazon AWS 6yrs"
       ]
     },
     {
@@ -263,6 +276,7 @@
       "name": "Autocross",
       "level": "Hobbyist",
       "keywords": [
+        "DS/STU Class (2017 Golf R)",
         "CS/P3 Class (1988 Porsche 911 Cabriolet)",
         "FS Class (2004 BMW M3)",
         "GS Class (2016 Ford Focus ST)"
