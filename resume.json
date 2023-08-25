@@ -216,6 +216,13 @@
   "awards": [],
   "portfolio": [
     {
+      "name": "Metabolic.com",
+      "publisher": "Metabolic Nutrition and Health LLC",
+      "releaseDate": "October 2022",
+      "website": "https://www.metabolic.com",
+      "summary": "Ecommerce platform used to transition from a direct marketing focus to B2C.  Nuxt + VueJS frontend backed by an existing microservice ecosystem.  Primary responsibilites were frontend architecture, middleware implementation, authentication integration and payment processor integrations."
+    },
+    {
       "name": "WorldatWork Site",
       "publisher": "WorldatWork",
       "releaseDate": "January 2018",
@@ -261,30 +268,33 @@
         "JavaScript Graphical Rendering 4yrs",
         "Azure Portal 2yrs",
         "Dedicated SQL Pools 1yr",
-        "Redshift 1yr"
+        "Redshift 1yr",
+        "Tableau 1yr"
       ]
     },
     {
       "name": "Web Development",
       "level": "Lead Developer",
       "keywords": [
-        "PHP 9yrs",
-        "Laravel 7yrs",
+        "PHP 11yrs",
+        "Laravel 8yrs",
         "Java 4yrs",
-        "Javascript 9yrs",
-        "NodeJS 4yrs",
-        "GIT 8yrs",
-        "SQL 9yrs",
-        "HTML 9yrs",
-        "CSS 9yrs",
+        "Javascript 11yrs",
+        "NodeJS 6yrs",
+        "GIT 10yrs",
+        "SQL 11yrs",
+        "HTML 11yrs",
+        "CSS 11yrs",
         "DotCMS 6yrs",
         "GULP 4yrs",
-        "NPM/NodeJS 4yrs",
+        "NPM/NodeJS 6yrs",
         "Apache Velocity 4yrs",
         "Jenkins 2yrs",
-        "Testing 2yrs",
-        "Programming Instruction 3yrs",
-        "Amazon AWS 6yrs"
+        "Testing 4yrs",
+        "Programming Instruction 5yrs",
+        "Amazon AWS 8yrs",
+        "Apache Webserver 6yrs",
+        "PM2 2yrs"
       ]
     },
     {
