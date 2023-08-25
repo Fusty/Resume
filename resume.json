@@ -6,7 +6,7 @@
     "email": "sterlingalex@gmail.com",
     "phone": "(330) 703 5397",
     "website": "",
-    "summary": "Alex enjoys designing and developing high-performance full-featured web applications with an emphasis on following web standards to ensure high quality.  He has experience spanning the entire web stack and learning new languages, frameworks or technologies to get the job done perfectly.  Extensive knowledge of building PHP, Java and NodeJS backend data services to support applications comes paired with frontend JavaScript/Vue/HTML/CSS mastery.  With 9 years of experience building web applications and skills in PHP, Laravel, Java, NodeJS, JavaScript, VueJS, DotCMS, SQL, CSS, HTML5, Dev-Ops, Testing, Azure, Dedicated SQL Pools, Dynamics 365, RedShift, and more. Alex delivers powerful web solutions that are maintainable and durable.",
+    "summary": "Alex enjoys designing and developing high-performance full-featured applications with an emphasis on following industry standards to ensure high quality.  He has experience spanning the entire stack and learning new languages, frameworks or technologies to get the job done perfectly.  Extensive knowledge of building PHP, Java and NodeJS backend data services to support applications comes paired with frontend JavaScript/Vue/HTML/CSS mastery.  With 9 years of experience building web applications and skills in PHP, Laravel, Java, NodeJS, JavaScript, VueJS, DotCMS, SQL, CSS, HTML5, Dev-Ops, Testing, Azure, Dedicated SQL Pools, Dynamics 365, RedShift, and more. Alex delivers powerful softare solutions that are maintainable and durable.",
     "location": {
       "address": "153 Westgate Ave.",
       "postalCode": "44281",
@@ -24,16 +24,43 @@
         "network": "bitbucket",
         "username": "alex_sterling",
         "url": "http://bitbucket.org/alex_sterling"
+      },
+      {
+        "network": "linkedin",
+        "username": "alex-sterling",
+        "url": "https://www.linkedin.com/in/alex-sterling-5013942b/"
       }
     ]
   },
   "work": [
     {
+      "company": "Metabolic Nutrition and Health LLC - Metabolic - Natural Health Sherpa LLC",
+      "position": "Full Stack Developer",
+      "website": "https://www.metabolic.com/",
+      "startDate": "05-26-2022",
+      "endDate": "Present",
+      "summary": "Wrangling Inbound and Outbound Ad-Tech Telemetry. Crafting fast and flexible internal reporting tools. Architecting modern JavaScript frontends (Nuxt). Fully utilizing processing server resources through parallelized job queues and intelligent job splitting and batching.",
+      "highlights": [
+        "Gained frontend customer-facing experience with building Ecommerce platforms from scratch.",
+        "Payment processor integration experience",
+        "3PL fulfillment integration experience",
+        "Salesforce integration experience",
+        "Linear Regression and Random Forest Machine Learning training and feature engineering experience for multiple models",
+        "Developed Split Test (A/B, A/B/C, A/B/C/D/E/F/... you get it) reports with constant runtime regardless of the tested volume",
+        "Deepend MariaDB/MySQL knowledge and speed.  Expecially in the realm of Stored Procedures, Triggers, Events and other things you should be VERY careful with.",
+        "Optimized queries across the organization for speed, reliability and readability.",
+        "Modernized and disaster-hardened processes within aging legacy infrastructure.",
+        "Leveled up with Load Balancing using AWS Elastic Load Balancer, creative use of routing rules and Target Groups.",
+        "Mastered the art of balancing High-Level requests with tight deadlines and product quality.",
+        "Expanded Linux (CentOS, Ubuntu) fluency"
+      ]
+    },
+    {
       "company": "mDesign",
       "position": "Software Engineer II - Senior Data Engineer",
       "website": "https://mdesignhomedecor.com/",
       "startDate": "09-16-2019",
-      "endDate": "Present",
+      "endDate": "05-23-2022",
       "summary": "Maintaining monolithic legacy PHP infrastructure.  Developing modular Laravel service application ecosystem to reduce dependence on legacy PHP infrastructure.  Developing AWS and Azure based cloud-infrastructure for ETL and data analytics.  Optimizing analytical SQL queries to minimize data reporting lag.  Spearheading the cross-functional collaboration and buy-in necessary to make company-spanning foundational reporting changes.",
       "highlights": [
         "Developed Data Warehouse for Big Data analytics alongside optimized CRUD app databases (OLAP and OLTP)",
