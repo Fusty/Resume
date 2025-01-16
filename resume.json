@@ -280,40 +280,44 @@
   "skills": [
     {
       "name": "Data Engineer",
-      "level": "Senior Engineer",
+      "level": "Senior Engineer and Lead Architect",
       "keywords": [
-        "SQL 9yrs",
+        "SQL 10+yrs",
         "Analytical PHP 5yrs",
+        "ELT/ETL 5yrs",
         "JavaScript Graphical Rendering 4yrs",
         "Azure Portal 2yrs",
         "Dedicated SQL Pools 1yr",
         "Redshift 1yr",
-        "Tableau 1yr"
+        "Tableau 1yr",
+        "Sigma Computing 1yr",
+        "Snowflake 1yr",
+        "N8N 1yr"
       ]
     },
     {
       "name": "Web Development",
-      "level": "Lead Developer",
+      "level": "Lead Developer and Management",
       "keywords": [
-        "PHP 11yrs",
-        "Laravel 8yrs",
+        "PHP 10+yrs",
+        "Laravel 10+yrs",
         "Java 4yrs",
-        "Javascript 11yrs",
+        "Javascript 10+yrs",
+        "VueJS 8yrs",
         "NodeJS 6yrs",
-        "GIT 10yrs",
-        "SQL 11yrs",
-        "HTML 11yrs",
-        "CSS 11yrs",
+        "Nuxt 3yrs",
+        "GIT 10+yrs",
+        "SQL 10+yrs",
+        "HTML 10+yrs",
+        "CSS 10+yrs",
         "DotCMS 6yrs",
-        "GULP 4yrs",
-        "NPM/NodeJS 6yrs",
+        "GULP 4yrs (Wow, blast from the past eh?)",
         "Apache Velocity 4yrs",
         "Jenkins 2yrs",
-        "Testing 4yrs",
-        "Programming Instruction 5yrs",
+        "Testing 8yrs",
+        "Programming Coaching/Mentorship 7yrs",
         "Amazon AWS 8yrs",
-        "Apache Webserver 6yrs",
-        "PM2 2yrs"
+        "Apache Webserver 6yrs"
       ]
     },
     {
@@ -346,7 +350,7 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": ["Autocross", "Gaming", "Skateboarding"],
+  "interests": ["Autocross", "Gaming", "Skateboarding", "Rubik's Cube"],
   "references": [
     {
       "name": "Brad Rice - Web Graphics Designer at The University of Akron",
