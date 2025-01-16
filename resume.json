@@ -34,6 +34,25 @@
   },
   "work": [
     {
+      "company": "V Shred LLC",
+      "position": "Engineering Manager - Data Architect",
+      "website": "https://vshred.com/",
+      "startDate": "03-20-2024",
+      "endDate": "Present",
+      "summary": "Migrating to in-house ELT while driving down data latency and increasing data confidence across the company.  Leading a diverse team of engineers pushing the envelope on Frontend, Data and AdTech",
+      "highlights": [
+        "Spearheaded in-house ELT via self-hosted N8N and Airbyte.",
+        "Architected new data mart platform built on Dagster, DBT and DLT.",
+        "Reduced 2 hour ad platform data latency down to 15 minute maximum latency.",
+        "Vastly increased ad platform data segmentation by hour, age, gender, location, device, placement, etc.",
+        "Modeled user journeys across various funnels and platforms.",
+        "Leveled up Snowflake experience massively.  Comfortable building warehouses and data marts within Snowflake and leveraging Snowflake-specific SQL.",
+        "Managing Data, Frontend and Pixel teams.  Focusing on stability and robust monitoring.",
+        "Developed bottom up monitoring of various systems within DataDog.",
+        "Leveled up executive communication skills.  Frequent collaboration with c-suite on roadmapping and data enablement."
+      ]
+    },
+    {
       "company": "Metabolic Nutrition and Health LLC - Metabolic - Natural Health Sherpa LLC",
       "position": "Senior Full Stack Engineer",
       "website": "https://www.metabolic.com/",
