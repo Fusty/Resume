@@ -34,6 +34,25 @@
   },
   "work": [
     {
+      "company": "V Shred LLC",
+      "position": "Engineering Manager - Data Architect",
+      "website": "https://vshred.com/",
+      "startDate": "03-20-2024",
+      "endDate": "Present",
+      "summary": "Migrating to in-house ELT while driving down data latency and increasing data confidence across the company.  Leading a diverse team of engineers pushing the envelope on Frontend, Data and AdTech",
+      "highlights": [
+        "Spearheaded in-house ELT via self-hosted N8N and Airbyte.",
+        "Architected new data mart platform built on Dagster, DBT and DLT.",
+        "Reduced 2 hour ad platform data latency down to 15 minute maximum latency.",
+        "Vastly increased ad platform data segmentation by hour, age, gender, location, device, placement, etc.",
+        "Modeled user journeys across various funnels and platforms.",
+        "Leveled up Snowflake experience massively.  Comfortable building warehouses and data marts within Snowflake and leveraging Snowflake-specific SQL.",
+        "Managing Data, Frontend and Pixel teams.  Focusing on stability and robust monitoring.",
+        "Developed bottom up monitoring of various systems within DataDog.",
+        "Leveled up executive communication skills.  Frequent collaboration with c-suite on roadmapping and data enablement."
+      ]
+    },
+    {
       "company": "Metabolic Nutrition and Health LLC - Metabolic - Natural Health Sherpa LLC",
       "position": "Senior Full Stack Engineer",
       "website": "https://www.metabolic.com/",
@@ -261,40 +280,44 @@
   "skills": [
     {
       "name": "Data Engineer",
-      "level": "Senior Engineer",
+      "level": "Senior Engineer and Lead Architect",
       "keywords": [
-        "SQL 9yrs",
+        "SQL 10+yrs",
         "Analytical PHP 5yrs",
+        "ELT/ETL 5yrs",
         "JavaScript Graphical Rendering 4yrs",
         "Azure Portal 2yrs",
         "Dedicated SQL Pools 1yr",
         "Redshift 1yr",
-        "Tableau 1yr"
+        "Tableau 1yr",
+        "Sigma Computing 1yr",
+        "Snowflake 1yr",
+        "N8N 1yr"
       ]
     },
     {
       "name": "Web Development",
-      "level": "Lead Developer",
+      "level": "Lead Developer and Management",
       "keywords": [
-        "PHP 11yrs",
-        "Laravel 8yrs",
+        "PHP 10+yrs",
+        "Laravel 10+yrs",
         "Java 4yrs",
-        "Javascript 11yrs",
+        "Javascript 10+yrs",
+        "VueJS 8yrs",
         "NodeJS 6yrs",
-        "GIT 10yrs",
-        "SQL 11yrs",
-        "HTML 11yrs",
-        "CSS 11yrs",
+        "Nuxt 3yrs",
+        "GIT 10+yrs",
+        "SQL 10+yrs",
+        "HTML 10+yrs",
+        "CSS 10+yrs",
         "DotCMS 6yrs",
-        "GULP 4yrs",
-        "NPM/NodeJS 6yrs",
+        "GULP 4yrs (Wow, blast from the past eh?)",
         "Apache Velocity 4yrs",
         "Jenkins 2yrs",
-        "Testing 4yrs",
-        "Programming Instruction 5yrs",
+        "Testing 8yrs",
+        "Programming Coaching/Mentorship 7yrs",
         "Amazon AWS 8yrs",
-        "Apache Webserver 6yrs",
-        "PM2 2yrs"
+        "Apache Webserver 6yrs"
       ]
     },
     {
@@ -327,7 +350,7 @@
       "fluency": "Native speaker"
     }
   ],
-  "interests": ["Autocross", "Gaming", "Skateboarding"],
+  "interests": ["Autocross", "Gaming", "Skateboarding", "Rubik's Cube"],
   "references": [
     {
       "name": "Brad Rice - Web Graphics Designer at The University of Akron",
